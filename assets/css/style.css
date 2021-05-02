@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/haggele.png) top center;
+  background: url(../img/haggele.png) center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -484,8 +484,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero .hero-container {
-    background: url(../img/Haggele\ logo.jpg) rgba(6, 12, 34, 0.7);
-    background: url(../img/Haggele\ logo.jpg);; 
+ 
+    background: url(../img/Haggele\ logo.jpg) center;
     background-size: cover;
   overflow: hidden;
   position: absolute;
@@ -926,8 +926,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   overflow: hidden;
   border-radius: 50%;
-  float: left;
-  margin: 0 10px 10px 0;
+  margin: auto;
+ 
 }
 
 #Steam .Steam-item .speaker img {
@@ -935,12 +935,14 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(-50%);
   margin-left: 50%;
   transition: all ease-in-out 0.3s;
+  
 }
 
 #Steam .Steam-item h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 #Steam .Steam-item h4 span {
@@ -953,7 +955,7 @@ h1, h2, h3, h4, h5, h6 {
 #Steam .Steam-item p {
   font-style: italic;
   color:#252a3e;
-  
+  text-align: center;
   margin-bottom: 0;
 }
 
@@ -961,7 +963,7 @@ h1, h2, h3, h4, h5, h6 {
 # Discord Section
 --------------------------------------------------------------*/
 #Discord {
-  background: url("../img/dis.jpg");
+  background: url("../img/dis.jpg") center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1066,18 +1068,9 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-/*#Discord .Discord-container{
-  position: absolute;
-  height: 300px;
-  width: 600px;
-  top: 60px;
-  left: calc(50% - 300px);
-  display: flex;
-} */
  .card {
   display: flex;
   height: 200px;
-  width: 350px;
   background-color: #17141d;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
