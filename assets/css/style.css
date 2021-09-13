@@ -7,6 +7,7 @@ html,body {
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  
 }
 
 a {
@@ -693,7 +694,6 @@ h1, h2, h3, h4, h5, h6 {
 #about h3 {
   font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 10px;
   color: #fff;
   text-align: center;
@@ -701,7 +701,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #about h4 {
   font-size: 17px;
-  font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
   text-align: center;
@@ -1147,7 +1146,6 @@ h1, h2, h3, h4, h5, h6 {
   background: black;
   color: #fff;
   padding: 5px;
-  border-radius: 5px;
   display: block;
   width: 100%;
   margin-left: auto;
